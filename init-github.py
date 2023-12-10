@@ -42,7 +42,6 @@ class PushTheFirstCommit:
         run_command('git commit -m "Initial commit"')
         run_command("git branch -M main")
         run_command("git push -u origin main")
-        wait_for_enter()
 
 def get_context(context_str):
     try:
