@@ -16,8 +16,9 @@ The `InitGithub` script automates the initialization of a Git repository with sp
 
 To initialize a new GitHub repository, use the following command:
 
-````bash
+```bash
 python init-github.py <path> '{"host": "github.com", "repo_path": "marcus.a/example.git", "repo_name": "example", "email": "marcus.a@example.com", "name": "Marcus Aurelius"}'
+```
 
 ### 2. [CloneGithub](clone-github.py)
 
@@ -30,5 +31,4 @@ To clone a GitHub repository, use the following command:
 
 ```bash
 python clone-github.py <path> '{"host": "github.com", "repo_path": "marcus.a/example.git", "email": "marcus.a@example.com", "name": "Marcus Aurelius"}'
-
 ````
