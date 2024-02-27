@@ -52,7 +52,7 @@ def main(context_str):
     print("Done!")
 
 if __name__ == "__main__":
-    if len(sys.argv) != 2:
+    if len(sys.argv) != 3:
         print(
             'Usage: clone-github.py <path> \'{"host": "github.com", "repo_path": "marcus.a/example.git", "email": "marcus.a@example.com", "name": "Marcus Aurelius"}\''
         )
